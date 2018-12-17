@@ -1,0 +1,34 @@
+{
+  "name": "mapir-angular",
+  "version": "0.1.7",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "leaflet": "^1.3.3"
+  },
+  "main": "bundles/mapir.umd.js",
+  "module": "fesm5/mapir.js",
+  "es2015": "fesm2015/mapir.js",
+  "esm5": "esm5/mapir.js",
+  "esm2015": "esm2015/mapir.js",
+  "fesm5": "fesm5/mapir.js",
+  "fesm2015": "fesm2015/mapir.js",
+  "typings": "mapir.d.ts",
+  "metadata": "mapir.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0",
+    "leaflet": "^1.3.3"
+  },
+  "author": "mh_sattarian <“mh_sattarian@outlook.com”>",
+  "license": "MIT",
+  "keywords": [
+    "mapir",
+    "map",
+    "component",
+    "angular",
+    "node",
+    "npm"
+  ],
+  "description": "Map.ir Angular Component"
+}
