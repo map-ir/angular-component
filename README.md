@@ -1,7 +1,7 @@
 # Mapir Angular Component 🔥
 
 <div style="text-align: center">
-<a href="https://map.ir"> <img src="https://map.ir/css/images/site-logo.png" /> </a>
+<a href="https://map.ir"> <img src="Assets/site-logo.png"/> </a>
 </div>
 
 Angular component to display a map from [**Map.ir**](http://map.ir) service in ease using defined directives.
@@ -45,7 +45,7 @@ In your component's HTML (e.g. in `app.component.html`) add a `mapir-map` elemen
   <mapir-map
       [mapPosition] = "{lat: 34, lng: 51}"
       [zoom] = "6"
-      [markerPosition] = "{lat: 34, lng: 51}"
+      [markerPositions] = "[{lat: 34, lng: 51}, {lat: 32, lng: 51}, {lat: 34, lng: 52}]"
   ></mapir-map>
 </div>
 ```
@@ -64,15 +64,9 @@ to properly display your map place this element inside an element with specific 
 }
 ```
 
+
 <iframe src="https://stackblitz.com/edit/mapir-angular-component-example?ctl=1&embed=1&file=src/app/app.module.ts" height="400px" width="100%"></iframe>
 
 Or 
 
 [![Edit mapir-angular-component-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/k394n9k7y3)
-
-## Publication
-
-```shell
-npm version <major | minor | patch>
-npm publish
-```
